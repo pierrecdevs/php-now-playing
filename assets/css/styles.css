@@ -1,0 +1,118 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Robot, Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #777;
+  color: #eee;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-baseline {
+  justify-content: baseline;
+}
+
+.border-rounded {
+  border-radius: 5px 5px 0 0;
+}
+
+.alert {
+  background-color: rgb(100, 10, 10);
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #eee;
+  color: #333;
+  padding-bottom: 1.5rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 2px 16px;
+}
+
+.music-title, .music-artist {
+  margin: 0.5em;
+  font-size: 1.5rem;
+  padding: 0.25rem;
+}
+
+.music-linkback {
+  display: flex;
+  align-items: center;
+}
+
+.mr-5 {
+  margin-right: 0.5rem;
+}
+.ml-5 {
+  margin-left: 0.5rem;
+}
