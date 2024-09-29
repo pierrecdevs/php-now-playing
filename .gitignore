@@ -1,0 +1,11 @@
+vendor/
+build/
+dist/
+
+# this was my experimental version :3
+src/spotify-api/*
+
+.env
+error_log
+data/song.json
+data/profile.json
