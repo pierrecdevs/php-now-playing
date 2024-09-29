@@ -13,3 +13,5 @@ It's primarily written in PHP and the Front End was a quick whip together
 
 Clone the repo, and then copy the `.env.example` to `.env`. 
 Replace all the ClientId, and ClientSecret with your app. https://developer.spotify.com create an app
+
+![image](https://github.com/user-attachments/assets/3de1c89a-c81c-4856-a85a-d8889b598490)
